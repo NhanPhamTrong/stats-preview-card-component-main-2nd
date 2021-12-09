@@ -1,0 +1,28 @@
+body {
+    color: $word-color-1;
+    background-color: $body-background;
+
+    main {
+        background-color: $main-background;
+
+        img {
+            filter: opacity(.5) drop-shadow(0 0 0 $title-highlight);
+        }
+
+        h2 {
+            span {
+                color: $title-highlight;
+            }
+        }
+
+        .describe {
+            color: $word-color-2;
+        }
+
+        .stat {
+            p {
+                color: $word-color-3;
+            }
+        }
+    }
+}
